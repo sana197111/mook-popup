@@ -1,0 +1,50 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* Check when radio is selected */
+input[type="radio"]:checked + span {
+  font-weight: bold;
+  color: #d2d6d5;
+}
+
+
+.time-wrapper .time {
+    color: #d2d6d5;
+    font-size: 2rem; /* You may adjust the size as per your requirement */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.min-h-screen {
+    background-image: url(./background.png);
+    background-size: cover;
+    background-position: center;
+    background-color: #514d4c;
+}
+
+/* style.css */
+
+@font-face {
+    font-family: 'SunBatang-Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/SunBatang-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'SunBatang-Light', sans-serif;
+}
+
+/* 만약 굵은ㅁㅁ
+/* 
+.time-wrapper .time.up {
+    opacity: 0;
+    transform: translateY(-100%);
+}
+
+.time-wrapper .time.down {
+    opacity: 0;
+    transform: translateY(100%);
+} */
